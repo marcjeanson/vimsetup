@@ -53,15 +53,13 @@ imap <C-l> <space>=><space>
 "toggle the search highlighting by pressing space
 :noremap <Space> :set hlsearch! hlsearch?<cr>
 
+"fix my common typos
 command! W :w
 command! Wa :wa
 command! Q :q
 command! Qa :qa
 
 colorscheme molokai
-"syntax enable
-"set background=dark
-"colorscheme solarized
 
 let vimclojure#HighlightBuiltins=1  " Highlight Clojure's builtins
 let vimclojure#ParenRainbow=1       " Rainbow parentheses'!
@@ -83,7 +81,6 @@ let g:NERDTreeWinSize = 40
 nmap <leader>l :NumbersToggle<CR>
 
 " Dealing with whitespace
-"nmap <leader>l :set list!<CR>
 " Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬
 nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
