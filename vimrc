@@ -34,13 +34,6 @@ set statusline +=%4v\ %*            "virtual column number
 
 let mapleader = ","
 
-" Fuzzy Finder 
-"map <silent> <leader>h :FufHelp<CR>
-"map <silent> <leader>1 :FufFile **/<CR>
-"map <silent> <leader>2 :FufFileWithCurrentBufferDir<CR>
-"map <silent> <leader>3 :FufBuffer<CR>
-"map <silent> <leader>0 :FufRenewCache<CR>
-
 " CtrlP
 let g:ctrlp_map = '<leader>1'
 let g:ctrlp_working_path_mode = 'ra'
